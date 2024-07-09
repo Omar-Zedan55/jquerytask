@@ -1,0 +1,154 @@
+.leftbar {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+}
+
+.header-welcome {
+    width: 100%;
+    
+
+}
+
+header {
+    color: white;
+    height: 95vh;
+    overflow: auto;
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(./../imgs/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.leftbar a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+    font-size: 25px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.singer {
+    background-color: #E68285;
+    cursor: pointer;
+}
+
+.singerdata {
+    background-color: #CCCCCC;
+    display: none;
+}
+
+.leftbar .flex-column {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.leftbar i {
+    position: absolute;
+    top: 40px;
+    cursor: pointer;
+    right: 40px;
+    color: white;
+    transition: all .5s;
+
+}
+
+.leftbar a:hover {
+    color: #601C1A
+}
+
+.leftbar i:hover {
+    color: #601C1A
+}
+
+.counter {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(./../imgs/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+}
+
+.innerporder {
+    border: 1px solid white;
+
+}
+
+#Joinnuss {
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.email {
+    color: #D62E33
+}
+
+.contact i,
+.locationdesc,
+.headlorem,
+.phonenum {
+    color: #777;
+}
+
+.contactinfoo {
+    color: #444;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.socialiconborder {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border: #999 solid 1px;
+}
+
+.socialiconborder:hover {
+    cursor: pointer;
+    border: #999 solid 0px;
+    background-color: #D62E33;
+    color: white;
+}
+
+.socialiconborder:hover i {
+    color: white
+}
+
+textarea {
+    height: 200px;
+}
+
+span {
+    color: #D62E33;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #D62E33;
+    border-radius: 0%;
+    width: 150px;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+.joinus {
+    margin-bottom: 100px;
+}
+
+.open {
+    cursor: pointer;
+    color: white;
+}
